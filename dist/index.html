@@ -1,0 +1,501 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio - Web Developer Projects</title>
+
+    <!-- Description (important for SEO) -->
+    <meta name="description" content="Showcasing my web development projects, skills, and portfolio work." />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" crossorigin href="/assets/main-Wn7jZ4PA.css">
+  </head>
+  <body>
+    <header class="bg-[#121414]">
+      <nav class=" md:w-11/12 mx-auto flex md:gap-6 lg:gap-8  justify-between items-center p-2 md:py-2">
+        <div class="w-4/12 md:border-r-2  md:border-[#353535]">
+          <h3 class="font-bold text-xl md:text-2xl text-[#fff]">
+            Daryl <span class="text-[#f89222]">Smith</span>
+          </h3>
+          <h4 class="text-[#c2c2c2] text-sm md:text-lg font-normal">UI/UX designer</h4>
+        </div>
+        <div class="md:w-8/12 md:flex md:justify-between pr-4 md:pr-0">
+          <div class="hidden md:flex md:items-center md:gap-3">
+            <img src="data:image/svg+xml,%3csvg%20width='40'%20height='40'%20viewBox='0%200%2040%2040'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3crect%20width='40'%20height='40'%20rx='6'%20fill='url(%23paint0_linear_1_867)'/%3e%3cpath%20d='M28.7465%2019.1254L24.4956%2015.0328V11.7756C24.4956%2011.3561%2024.1497%2011.0101%2023.7301%2011.0101C23.3105%2011.0101%2022.9646%2011.3561%2022.9646%2011.7756V13.5606L20.5134%2011.2015C20.2447%2010.9328%2019.7847%2010.9328%2019.4792%2011.2015L11.2498%2019.1254C10.9443%2019.4309%2010.9038%2019.891%2011.213%2020.1964C11.5221%2020.5019%2011.9785%2020.5424%2012.284%2020.2332L12.3981%2020.1228V28.2345C12.3981%2028.654%2012.744%2029%2013.1636%2029H26.8695C27.2891%2029%2027.5982%2028.654%2027.635%2028.2713V20.2001L27.7123%2020.2737C28.2717%2020.6602%2028.6692%2020.3878%2028.7833%2020.1964C29.052%2019.891%2029.052%2019.3941%2028.7465%2019.1254ZM21.3562%2027.5094H18.6769V23.4131H21.3562V27.5094ZM26.104%2027.5094H22.8505V22.6476C22.8505%2022.228%2022.5045%2021.8821%2022.0849%2021.8821H17.9114C17.4918%2021.8821%2017.1458%2022.228%2017.1458%2022.6476V27.5094H13.9291V20.0051H26.104V27.5094ZM14.0764%2018.5145L20.0166%2012.8098L25.8979%2018.5145H14.0764Z'%20fill='white'/%3e%3cdefs%3e%3clinearGradient%20id='paint0_linear_1_867'%20x1='0'%20y1='11.0954'%20x2='40.0065'%20y2='10.8939'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20stop-color='%23F5BD4D'/%3e%3cstop%20offset='1'%20stop-color='%23F89222'/%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e" alt="home icon" />
+            <p class="font-bold text-xl text-[#fff]">Home</p>
+          </div>
+          <button
+            class="font-bold text-[#f89222] text-sm md:text-[16px] border-[1px] border-[#f89222] px-2 md:px-4 py-2 rounded-3xl"
+          >
+            Talk To Me
+          </button>
+        </div>
+      </nav>
+
+      <!-- hero section -->
+      <section class="flex flex-col md:flex-row gap-7 px-5 lg:px-0 lg:gap-12 leading-tight bg-[#171b1a]">
+        <div class="w-full md:w-1/2 lg:w-1/3 md:flex md:gap-2 md:items-center">
+          <div
+          class="hidden lg:flex lg:flex-col gap-6 px-6"
+        >
+          <a href="#home" class="header-icon">
+            <img src="data:image/svg+xml,%3csvg%20width='32'%20height='32'%20viewBox='0%200%2032%2032'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M27.662%2014.8339L21.9942%209.37709V5.0342C21.9942%204.47477%2021.5329%204.01349%2020.9735%204.01349C20.414%204.01349%2019.9528%204.47477%2019.9528%205.0342V7.4142L16.6845%204.26867C16.3263%203.91044%2015.7129%203.91044%2015.3056%204.26867L4.33306%2014.8339C3.92576%2015.2412%203.87178%2015.8546%204.28399%2016.2619C4.6962%2016.6692%205.30469%2016.7232%205.71199%2016.311L5.86412%2016.1638V26.9793C5.86412%2027.5387%206.32539%2028%206.88482%2028H25.1593C25.7187%2028%2026.1309%2027.5387%2026.18%2027.0284V16.2668L26.2831%2016.365C27.029%2016.8802%2027.5589%2016.5171%2027.7111%2016.2619C28.0693%2015.8546%2028.0693%2015.1921%2027.662%2014.8339ZM17.8083%2026.0126H14.2358V20.5508H17.8083V26.0126ZM24.1386%2026.0126H19.8006V19.5301C19.8006%2018.9707%2019.3393%2018.5094%2018.7799%2018.5094H13.2151C12.6557%2018.5094%2012.1944%2018.9707%2012.1944%2019.5301V26.0126H7.90552V16.0067H24.1386V26.0126ZM8.10181%2014.0193L16.0221%206.41313L23.8638%2014.0193H8.10181Z'%20fill='url(%23paint0_linear_1_858)'/%3e%3cdefs%3e%3clinearGradient%20id='paint0_linear_1_858'%20x1='4'%20y1='10.6572'%20x2='27.9778'%20y2='10.5366'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20stop-color='%23F5BD4D'/%3e%3cstop%20offset='1'%20stop-color='%23F89222'/%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e" alt="Home page icon" />
+          </a>
+
+          <a href="#blog" class="header-icon">
+            <img src="data:image/svg+xml,%3csvg%20width='32'%20height='32'%20viewBox='0%200%2032%2032'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M23.5529%204.61882C23.1498%204.97275%2022.6878%205.26255%2022.5265%205.26298C22.1599%205.26362%2012.9659%2015.3568%2012.7178%2016.031C12.3782%2016.9531%2011.7782%2020.4781%2011.9046%2020.8076C12.0899%2021.2905%2012.929%2021.2124%2015.2378%2020.4972L17.2994%2019.8586L22.0722%2014.5854C24.6973%2011.6851%2026.8449%209.1642%2026.8449%208.98359C26.8449%208.80276%2027.038%208.40936%2027.2739%208.10948C27.8572%207.36793%2027.848%205.93352%2027.2551%205.17975C26.2078%203.84852%2024.6917%203.61879%2023.5529%204.61882ZM25.572%205.91336C26.0725%206.18128%2026.1197%206.94085%2025.6473%207.1221C25.1999%207.29392%2024.3843%206.47837%2024.5561%206.03091C24.7076%205.636%2024.9922%205.60319%2025.572%205.91336ZM5.58736%207.86515C3.98156%208.79654%204.00001%208.68156%204.00001%2017.7037C4.00001%2025.6891%204.00344%2025.7533%204.48608%2026.5293C5.39173%2027.9856%205.48825%2028%2014.3321%2028C21.6356%2028%2022.2968%2027.9695%2022.9872%2027.6004C24.4334%2026.8271%2024.5838%2026.2782%2024.6628%2021.4839C24.7012%2019.139%2024.6769%2016.9975%2024.6085%2016.7256C24.4603%2016.135%2023.7309%2015.8491%2023.2953%2016.2107C23.0417%2016.4212%2022.9838%2017.277%2022.9838%2020.8115C22.9838%2024.8794%2022.9557%2025.1893%2022.5391%2025.7187L22.0947%2026.2839H14.3139C6.6764%2026.2839%206.52582%2026.2756%206.12469%2025.8324C5.7388%2025.4062%205.71606%2024.9523%205.71606%2017.7037C5.71606%2010.4551%205.7388%2010.0012%206.12469%209.57498C6.51445%209.14426%206.73346%209.12345%2010.8799%209.12345C13.2705%209.12345%2015.3791%209.06489%2015.5658%208.99324C16.0132%208.82164%2016.0132%207.70921%2015.5658%207.5376C15.3791%207.46596%2013.2315%207.40954%2010.793%207.41233C6.69206%207.41684%206.30166%207.45094%205.58736%207.86515ZM23.8886%208.23582L24.7767%209.06424L20.5018%2013.7467C16.3148%2018.3328%2016.2011%2018.4367%2014.9744%2018.8009L13.7216%2019.1726L13.8334%2018.7063C13.895%2018.4498%2014.0112%2017.8755%2014.0921%2017.43C14.2124%2016.7661%2014.9939%2015.789%2018.4238%2012.0137C20.7255%209.48017%2022.697%207.4074%2022.8047%207.4074C22.9124%207.4074%2023.4002%207.78021%2023.8886%208.23582Z'%20fill='%23646464'/%3e%3c/svg%3e" alt="Blog section icon" />
+          </a>
+
+          <a href="#portfolio" class="header-icon">
+            <img src="data:image/svg+xml,%3csvg%20width='32'%20height='32'%20viewBox='0%200%2032%2032'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M12.1931%204.08495C11.6099%204.24508%2011.0936%204.77092%2010.9352%205.36605C10.8289%205.76562%2010.8306%206.62242%2010.9381%206.83043C11.0885%207.12134%2011.4694%207.23375%2011.7728%207.07683C12.036%206.94072%2012.0716%206.8518%2012.1078%206.23905C12.1439%205.62804%2012.1999%205.47068%2012.424%205.35072C12.6191%205.24636%2019.2023%205.24636%2019.3974%205.35072C19.6215%205.47068%2019.6775%205.62804%2019.7137%206.23905C19.7499%206.8518%2019.7855%206.94072%2020.0487%207.07683C20.3521%207.23375%2020.7329%207.12134%2020.8833%206.83043C20.991%206.6222%2020.9925%205.76545%2020.886%205.36496C20.7243%204.75754%2020.2099%204.24351%2019.6019%204.08169C19.1852%203.97081%2012.5983%203.97369%2012.1931%204.08495ZM3.59627%208.45837C2.97472%208.55072%202.44117%208.95317%202.16809%209.53575L2.02296%209.84536L2.00665%2012.2048C1.99111%2014.4595%201.99535%2014.5805%202.1027%2014.934C2.24446%2015.4006%202.66419%2015.8837%203.08517%2016.0648C3.27655%2016.1471%2013.1639%2018.4063%2013.3328%2018.4063C13.3404%2018.4063%2013.3548%2018.9138%2013.365%2019.5342C13.3853%2020.7716%2013.4014%2020.8384%2013.717%2020.9882C13.972%2021.1092%2017.8494%2021.1092%2018.1044%2020.9882C18.42%2020.8384%2018.4362%2020.7716%2018.4564%2019.5342C18.4666%2018.9138%2018.4811%2018.4063%2018.4886%2018.4063C18.6576%2018.4063%2028.5449%2016.1471%2028.7363%2016.0648C29.1572%2015.8837%2029.577%2015.4006%2029.7187%2014.934C29.8261%2014.5805%2029.8303%2014.4595%2029.8148%2012.2048L29.7985%209.84536L29.6515%209.53173C29.4587%209.12031%2029.0446%208.72026%2028.6441%208.55855L28.3309%208.43212L16.101%208.42484C9.3745%208.42087%203.74738%208.43593%203.59627%208.45837ZM28.307%209.82052C28.3974%209.88487%2028.4865%2010.0163%2028.5189%2010.1331C28.6012%2010.4292%2028.5885%2014.3566%2028.5045%2014.5963C28.4688%2014.6982%2028.3784%2014.826%2028.3037%2014.8803C28.214%2014.9455%2026.5228%2015.3466%2023.3302%2016.0599L18.4926%2017.1407L18.4539%2016.8115C18.4011%2016.3616%2018.3237%2016.2002%2018.1125%2016.1C17.8435%2015.9724%2013.9779%2015.9724%2013.709%2016.1C13.4977%2016.2002%2013.4203%2016.3616%2013.3675%2016.8115L13.3288%2017.1407L8.49123%2016.0599C5.29862%2015.3466%203.60741%2014.9455%203.51773%2014.8803C3.44299%2014.826%203.35265%2014.6982%203.31694%2014.5963C3.23497%2014.3624%203.21953%2010.4276%203.29949%2010.1439C3.32895%2010.0395%203.42065%209.89917%203.50332%209.83204L3.65361%209.71001L15.9023%209.70974C28.1503%209.70947%2028.151%209.70947%2028.307%209.82052ZM3.04533%2017.3243C2.94988%2017.3522%202.82106%2017.4463%202.75898%2017.5335C2.64674%2017.6912%202.64625%2017.7131%202.66071%2022.1665L2.67522%2026.6411L2.81915%2026.9481C3.00244%2027.339%203.33618%2027.6728%203.7271%2027.8561L4.0341%2028H15.9107H27.7873L28.0943%2027.8561C28.4853%2027.6728%2028.819%2027.339%2029.0023%2026.9481L29.1462%2026.6411L29.1607%2022.1665C29.1751%2017.7238%2029.1744%2017.6908%2029.0633%2017.5346C28.9374%2017.3579%2028.6445%2017.2538%2028.4068%2017.3013C28.2025%2017.3421%2027.9994%2017.55%2027.957%2017.7616C27.9384%2017.8546%2027.9231%2019.8171%2027.923%2022.1228C27.9228%2026.179%2027.9194%2026.3206%2027.8171%2026.4883C27.7461%2026.6048%2027.6437%2026.6805%2027.5048%2026.719C27.2173%2026.7989%204.60635%2026.7995%204.31898%2026.7197C3.9024%2026.604%203.92865%2026.8972%203.89821%2022.0234C3.86951%2017.4326%203.87587%2017.5419%203.63019%2017.3885C3.48522%2017.298%203.23073%2017.2701%203.04533%2017.3243ZM17.1609%2018.5422V19.8195H15.9107H14.6605V18.5422V17.2648H15.9107H17.1609V18.5422Z'%20fill='%23646464'/%3e%3c/svg%3e" alt="Portfolio projects icon" />
+          </a>
+
+          <a href="#about" class="header-icon">
+            <img src="data:image/svg+xml,%3csvg%20width='32'%20height='32'%20viewBox='0%200%2032%2032'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M16%2016C17.2856%2016%2018.5423%2015.6188%2019.6112%2014.9046C20.6801%2014.1903%2021.5132%2013.1752%2022.0052%2011.9874C22.4972%2010.7997%2022.6259%209.49279%2022.3751%208.23191C22.1243%206.97104%2021.5052%205.81285%2020.5962%204.90381C19.6871%203.99477%2018.529%203.3757%2017.2681%203.1249C16.0072%202.87409%2014.7003%203.00282%2013.5126%203.49479C12.3248%203.98676%2011.3097%204.81988%2010.5954%205.88879C9.88122%206.95771%209.5%208.21442%209.5%209.5C9.5%2011.2239%2010.1848%2012.8772%2011.4038%2014.0962C12.6228%2015.3152%2014.2761%2016%2016%2016ZM16%204.85714C16.9183%204.85714%2017.8159%205.12944%2018.5794%205.63961C19.3429%206.14977%2019.938%206.87489%2020.2894%207.72326C20.6408%208.57163%2020.7328%209.50515%2020.5536%2010.4058C20.3745%2011.3064%2019.9323%2012.1337%2019.283%2012.783C18.6337%2013.4323%2017.8064%2013.8745%2016.9058%2014.0536C16.0051%2014.2328%2015.0716%2014.1408%2014.2233%2013.7894C13.3749%2013.438%2012.6498%2012.8429%2012.1396%2012.0794C11.6294%2011.3159%2011.3571%2010.4183%2011.3571%209.5C11.3571%208.26864%2011.8463%207.08771%2012.717%206.21701C13.5877%205.3463%2014.7686%204.85714%2016%204.85714Z'%20fill='%23646464'/%3e%3cpath%20d='M16.9288%2017.8574H15.0717C12.3627%2017.8574%209.76467%2018.9336%207.84912%2020.8491C5.93357%2022.7647%204.85742%2025.3627%204.85742%2028.0717C4.85742%2028.318%204.95525%2028.5542%205.12939%2028.7283C5.30354%2028.9024%205.53972%2029.0003%205.78599%2029.0003H26.2146C26.4608%2029.0003%2026.697%2028.9024%2026.8712%2028.7283C27.0453%2028.5542%2027.1431%2028.318%2027.1431%2028.0717C27.1431%2025.3627%2026.067%2022.7647%2024.1514%2020.8491C22.2359%2018.9336%2019.6378%2017.8574%2016.9288%2017.8574ZM6.77028%2027.1431C6.99861%2025.1009%207.9714%2023.2143%209.50277%2021.844C11.0341%2020.4736%2013.0167%2019.7155%2015.0717%2019.7146H16.9288C18.9838%2019.7155%2020.9664%2020.4736%2022.4978%2021.844C24.0292%2023.2143%2025.0019%2025.1009%2025.2303%2027.1431H6.77028Z'%20fill='%23646464'/%3e%3c/svg%3e" alt="About me icon" />
+          </a>
+
+          <a href="#contact" class="header-icon">
+            <img src="data:image/svg+xml,%3csvg%20width='32'%20height='32'%20viewBox='0%200%2032%2032'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M7.67908%204.03508C7.35982%204.11605%206.34434%204.72735%205.84413%205.13961C4.49794%206.24909%203.52769%207.86716%203.15414%209.62555C2.93772%2010.6442%202.95051%2012.2479%203.18425%2013.3949C3.42264%2014.5647%203.76108%2015.5378%204.3178%2016.6544C4.75389%2017.529%207.72064%2022.6263%208.17121%2023.2751C10.1289%2026.094%2012.8053%2027.8084%2015.517%2027.9805C17.2304%2028.0892%2018.7347%2027.7442%2020.1%2026.9293C20.6064%2026.627%2020.7389%2026.5173%2020.8848%2026.2791C21.0531%2026.0042%2021.0601%2025.9664%2021.0561%2025.349C21.0525%2024.7926%2021.0299%2024.6465%2020.8889%2024.2695C20.6531%2023.6388%2020.3529%2023.0636%2019.8117%2022.2059C19.0049%2020.9269%2018.5497%2020.3974%2017.8906%2019.9714C17.3857%2019.645%2017.0019%2019.5412%2016.4151%2019.5721C15.873%2019.6007%2015.5969%2019.71%2014.6368%2020.2763C14.0573%2020.6182%2014.0074%2020.6363%2013.6486%2020.6362C13.1784%2020.636%2012.7365%2020.4304%2012.354%2020.034C12.181%2019.8547%2011.6264%2018.956%2010.6988%2017.352C9.93152%2016.0251%209.25639%2014.848%209.19849%2014.7361C9.04369%2014.4368%209.01091%2013.5928%209.14089%2013.2525C9.2697%2012.9153%209.4384%2012.7627%2010.1349%2012.3538L10.71%2012.016L10.804%2012.1699C10.9567%2012.4197%2017.0412%2017.1747%2017.5095%2017.4101C17.8812%2017.5969%2017.9548%2017.6132%2018.4118%2017.6095C18.815%2017.6062%2018.9701%2017.5776%2019.2291%2017.4587C19.4304%2017.3663%2021.1103%2016.0855%2023.7633%2014.0016C26.0813%2012.1808%2028.0105%2010.6711%2028.0505%2010.6466C28.1084%2010.611%2028.1231%2011.7052%2028.1231%2016.0432V21.4845L27.9804%2021.6272L27.8378%2021.7699L24.8268%2021.7702C22.8928%2021.7704%2021.7369%2021.7925%2021.5949%2021.8319C21.1573%2021.9534%2021.0092%2022.4853%2021.3171%2022.8298L21.4868%2023.0197H24.7613C27.9946%2023.0197%2028.0394%2023.0181%2028.3077%2022.8941C28.6904%2022.7172%2029.0766%2022.3406%2029.2221%2022.0024L29.346%2021.7144L29.3304%2015.5658L29.3148%209.41715L29.1557%209.14655C28.9623%208.81759%2028.6248%208.54095%2028.2371%208.39365C27.958%208.28756%2027.6528%208.2836%2019.7931%208.2836H11.6388L11.127%207.28085C10.4995%206.05168%2010.0907%205.42701%209.52908%204.83908C8.90261%204.18325%208.23632%203.8937%207.67908%204.03508ZM8.33706%205.4262C8.79385%205.75708%209.294%206.46586%209.94326%207.7023C10.4576%208.68168%2010.6924%209.35815%2010.7002%209.88219C10.7101%2010.5612%2010.6564%2010.6192%209.29609%2011.3974C8.42175%2011.8976%208.05954%2012.3539%207.85771%2013.2096C7.74186%2013.7009%207.77999%2014.5124%207.94037%2014.9686C8.04321%2015.261%2010.7691%2020.0247%2011.1557%2020.5876C11.5201%2021.118%2012.2602%2021.6241%2012.9244%2021.7971C13.3704%2021.9133%2014.0367%2021.9109%2014.3877%2021.7918C14.5407%2021.7399%2015.006%2021.5006%2015.4216%2021.2601C16.3117%2020.745%2016.5943%2020.6807%2017.0183%2020.8969C17.565%2021.1759%2018.1577%2021.8744%2018.9259%2023.1451C19.4582%2024.0256%2019.7408%2024.6647%2019.831%2025.1914C19.9054%2025.6255%2019.9072%2025.6231%2019.2061%2026.0101C17.546%2026.9265%2015.2873%2027.0112%2013.4695%2026.2252C11.831%2025.5169%2010.2848%2024.1734%209.11914%2022.4452C8.73967%2021.8827%205.76356%2016.7539%205.43844%2016.1022C4.05975%2013.3389%203.86176%2010.4664%204.90154%208.31267C5.23789%207.61598%205.56504%207.1729%206.23221%206.51062C6.70969%206.03668%207.0118%205.7923%207.39959%205.56641C7.68733%205.39876%207.96461%205.2614%208.01577%205.26122C8.06692%205.26099%208.21149%205.33522%208.33706%205.4262ZM27.3936%209.55597C27.3176%209.62694%2019.4489%2015.8024%2019.067%2016.0909C18.7005%2016.3676%2018.319%2016.4372%2018.019%2016.282C17.9183%2016.23%2016.4745%2015.118%2014.8104%2013.8109C13.1464%2012.5039%2011.7338%2011.3991%2011.6713%2011.3559C11.5602%2011.2791%2011.5617%2011.2693%2011.7384%2010.9165C11.888%2010.6177%2011.9242%2010.4653%2011.949%2010.03L11.9789%209.50435H19.7139C24.2204%209.50435%2027.4257%209.52585%2027.3936%209.55597Z'%20fill='%23646464'/%3e%3c/svg%3e" alt="Contact icon" />
+          </a>
+        </div>
+
+          <div class="flex flex-col gap-0 px-4 md:px-0 relative">
+            <img src="/assets/portfolio-DFsKECMZ.png"  alt="Portfolioimage" class="bg-black" />
+            <img src="/assets/icon-CDiDl7Xb.png" alt="icon image" class="absolute bottom-0 left-0 w-[100%]"/>
+          </div>
+        </div>
+
+        <div class="w-full text-center mx-auto lg:mx-0 md:text-left md:w-1/2 lg:w-2/3 md:mt-12 lg:mt-8">
+          <h4 class="text-[#f5bd4d] font-bold text-[16px]">INTRODUCTION</h4>
+          <h1 class=" text-3xl lg:text-[48px] leading-tight text-[#fff] mt-4">
+            I'm a Creative Developer &<br />
+            UI/UX Design Expert
+          </h1>
+          <h5 class="text-[16px] text-[#fff] mt-4">
+            24 years / Robert Smith / UK London
+          </h5>
+          <p
+            class="text-sm md:text-[16px] text-[#fff] mt-5 md:mt-7 font-medium w-[630px] text-justify px-4 md:px-0 lg:px-0"
+          >
+            Prolific, full stack web developer with a passion for metrics and
+            beating former "best-yets. Prototyped 25 new product features per
+            year for Flexor, Inc. Decreased rework by 22% and costs by 15%.
+            Consistently receive high user experience scores for all web
+            development projects, including a 55% increase for Flexor, Inc.
+            Passionate about building world class web applications. One of my
+            sites received a 2020 Webby for Best Navigation and Structure.
+          </p>
+          <button
+            class="flex gap-2 items-center justify-center mt-7 mx-auto sm:mx-0 bg-[#f5bd4d] px-4 py-2 rounded-3xl"
+          >
+            <span class="text-white text-[14px] md:text-[16px] font-bold">
+              Download CV
+            </span>
+            <img src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M12%2015V3M12%2015L8%2011M12%2015L16%2011M2%2017L2.621%2019.485C2.72915%2019.9177%202.97882%2020.3018%203.33033%2020.5763C3.68184%2020.8508%204.11501%2020.9999%204.561%2021H19.439C19.885%2020.9999%2020.3182%2020.8508%2020.6697%2020.5763C21.0212%2020.3018%2021.2708%2019.9177%2021.379%2019.485L22%2017'%20stroke='white'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e" alt="" />
+          </button>
+
+        </div>
+      </section>
+    </header>
+
+    <main class="bg-[#171b1a]">
+      <!-- resume -->
+      <section id="home" class="section-layout">
+  
+      <div class="section-hide"></div>
+
+        <div class="w-full lg:w-2/4">
+          <h2 class="section-title">
+            Resume
+          </h2>
+          <div class="mt-8 flex justify-center lg:justify-start">
+            <img src="/assets/cap-D-ypc3Dr.svg" alt="cap image" />
+          </div>
+
+          <div class="mt-12 flex justify-center lg:justify-start">
+            <img src="/assets/cap-2-DF7jHBeB.svg" alt="cap image two" />
+          </div>
+        </div>
+      </section>
+
+
+      <!-- skill -->
+      <section
+          class="flex flex-col  items-center text-center gap-10 mt-20
+                lg:flex-row lg:items-start lg:text-left"
+        >
+          <div class="section-hide"></div>
+
+          <div class="w-full lg:w-2/4">
+            <div class="rounded-xl p-6 text-white">
+
+              <h2 class="section-title">
+                Skills
+              </h2>
+
+              <!-- Skill Item -->
+              <div class="mb-6 mt-6">
+                <div class="flex justify-between mb-2">
+                  <span class="text-[#e3e3e3] font-medium text-xl md:text-2xl">
+                    UI/UX Design
+                  </span>
+                  <span class="text-[#f89222] font-medium text-lg md:text-xl">
+                    95%
+                  </span>
+                </div>
+                <div class="w-full bg-[#3d2217] rounded-full h-3">
+                  <div class="bg-[#f5bd4d] h-3 rounded-full w-[95%]"></div>
+                </div>
+              </div>
+
+              <!-- Skill Item -->
+              <div class="mb-6">
+                <div class="flex justify-between mb-2">
+                  <span class="text-[#e3e3e3] font-medium text-xl md:text-2xl">
+                    Photography
+                  </span>
+                  <span class="text-[#f89222] font-medium text-lg md:text-xl">
+                    90%
+                  </span>
+                </div>
+                <div class="w-full bg-[#3d2217] rounded-full h-3">
+                  <div class="bg-[#f5bd4d] h-3 rounded-full w-[90%]"></div>
+                </div>
+              </div>
+
+              <!-- Skill Item -->
+              <div class="mb-6">
+                <div class="flex justify-between mb-2">
+                  <span class="text-[#e3e3e3] font-medium text-xl md:text-2xl">
+                    Creativity
+                  </span>
+                  <span class="text-[#f89222] font-medium text-lg md:text-xl">
+                    80%
+                  </span>
+                </div>
+                <div class="w-full bg-[#3d2217] rounded-full h-3">
+                  <div class="bg-[#f5bd4d] h-3 rounded-full w-[80%]"></div>
+                </div>
+              </div>
+
+              <!-- Skill Item -->
+              <div class="mb-6">
+                <div class="flex justify-between mb-2">
+                  <span class="text-[#e3e3e3] font-medium text-xl md:text-2xl">
+                    Team Work
+                  </span>
+                  <span class="text-[#f89222] font-medium text-lg md:text-xl">
+                    95%
+                  </span>
+                </div>
+                <div class="w-full bg-[#3d2217] rounded-full h-3">
+                  <div class="bg-[#f5bd4d] h-3 rounded-full w-[95%]"></div>
+                </div>
+              </div>
+
+              <!-- Skill Item -->
+              <div>
+                <div class="flex justify-between mb-2">
+                  <span class="text-[#e3e3e3] font-medium text-xl md:text-2xl">
+                    Web Design
+                  </span>
+                  <span class="text-[#f89222] font-medium text-lg md:text-xl">
+                    95%
+                  </span>
+                </div>
+                <div class="w-full bg-[#3d2217] rounded-full h-3">
+                  <div class="bg-[#f5bd4d] h-3 rounded-full w-[95%]"></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+      </section>
+
+
+      <!-- portfolio -->
+      <section
+      id="portfolio"
+        class="section-layout"
+      >
+        <div class="section-hide"></div>
+
+        <div class="w-full lg:w-2/4">
+          <h2
+            class="section-title"
+          >
+            Portfolio
+          </h2>
+
+          <div
+            class="flex flex-wrap justify-center gap-4 my-6 rounded-md bg-black px-2 py-4"
+          >
+            <a class="text-[#f89222] text-[16px]">All</a>
+            <a class="text-white text-[16px]">Graphic Design</a>
+            <a class="text-white text-[16px]">Mobile App</a>
+            <a class="text-white text-[16px]">Photography</a>
+            <a class="text-white text-[16px]">UI/UX Design</a>
+          </div>
+          <div class="max-w-3xl mx-auto flex flex-col gap-6 md:grid md:grid-cols-2">
+            
+            <div class="flex flex-col gap-6">
+              <img src="/assets/group-1-DMEQADsK.png" />
+              <img src="/assets/group-2-C6v17q8p.png"  />
+              <img src="/assets/group-3-DBQDTaPw.png"  />
+              <img src="/assets/group-4-C3y8clwS.png"  />
+            </div>
+
+            <div class="flex flex-col gap-6">
+              <img src="/assets/group-5-Cojt7eRZ.png"  />
+              <img src="/assets/group-6-BS6f-UhZ.png" />
+              <img src="/assets/group-7-DhAWsmTc.png"  />
+              <img src="/assets/group-8-DPOhtfTA.png"  />
+              <img src="/assets/group-9-BB6-8Mas.png"  />
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- blog -->
+      <section class="section-layout">
+        <div class="section-hide"></div>
+        <div class="w-full lg:w-2/4">
+          <h2 class="section-title">Blog</h2>
+          <div class="flex flex-col md:flex-row gap-8 mt-8 ">
+            <div class="blog-sections">
+            <div class="bg-black text-[#fff]">
+              <img src="/assets/blog-1-BG_96h22.png" 
+              alt="blog post featured image" 
+              class="w-full">
+              <div class="px-3 py-2">
+                <h6 class="blog-h6-design">Graphic design |  28 Apr 2022</h6>
+                <h5 class="font-bold text-[18px] leading-6 justify-center mt-2">TThe artist vocation is to send light
+                into the human heart.</h5>
+                <p class="text-[14px] font-normal text-[#979797] mt-3">Lorem Ipsum is simply dummy text the
+                printing typesetting industry. Lorem
+                Ipsum has been...</p>
+                <p class="text-[14px] font-normal mt-2 pb-4"><span>-</span>Posted By Daryl Smith <span>-</span></p>
+              </div>
+            </div>
+
+            <div class="bg-black text-[#fff]">
+              <img src="/assets/blog-2-CNyYeOqR.png" alt="new blog post featured image" class="w-full">
+              <div class="px-3 py-2">
+                <h6 class="blog-h6-design">Graphic design |  28 Apr 2022</h6>
+                <h5 class="blog-h5-design">TThe artist vocation is to send light
+                into the human heart.</h5>
+                <p class="text-[14px] font-normal text-[#979797] mt-3">Lorem Ipsum is simply dummy text the
+                printing typesetting industry. Lorem
+                Ipsum has been...</p>
+                <p class="text-[14px] font-normal mt-2 pb-4"><span>-</span>Posted By Daryl Smith <span>-</span></p>
+              </div>
+            </div>
+
+            <div class="bg-black text-[#fff]">
+              <img src="/assets/blog-3-Df8yyCUO.png" alt="blog post featured image" class="w-full">
+              <div class="px-3 py-2">
+                <h6 class="blog-h6-design">Graphic design |  28 Apr 2022</h6>
+                <h5 class="blog-h5-design">TThe artist vocation is to send light
+                into the human heart.</h5>
+                <p class="text-[14px] font-normal text-[#979797] mt-3">Lorem Ipsum is simply dummy text the
+                printing typesetting industry. Lorem
+                Ipsum has been...</p>
+                <p class="text-[14px] font-normal mt-2 pb-4"><span>-</span>Posted By Daryl Smith <span>-</span></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="blog-sections">
+            <div class="bg-black text-[#fff]">
+              <img src="/assets/blog-4-BtLU59zN.png" alt="blog post featured image" class="w-full h-[230px]">
+              <div class="px-3 py-2">
+                <h6 class="text-[12px] font-normal text-[#747474] mt-2">Graphic design |  28 Apr 2022</h6>
+                <h5 class="blog-h5-design">TThe artist vocation is to send light
+                into the human heart.</h5>
+                <p class="text-[14px] font-normal text-[#979797] mt-3">Lorem Ipsum is simply dummy text the
+                printing typesetting industry. Lorem
+                Ipsum has been...</p>
+                <p class="text-[14px] font-normal mt-2 pb-4"><span>-</span>Posted By Daryl Smith <span>-</span></p>
+              </div>
+            </div>
+
+            <div class="bg-black text-[#fff]">
+              <img src="/assets/blog-5-Bnh8hCZz.png" alt="blog post featured image" class="w-full h-[230px]">
+              <div class="px-3 py-2">
+                <h6 class="blog-h6-design">Graphic design |  28 Apr 2022</h6>
+                <h5 class="blog-h5-design">TThe artist vocation is to send light
+                into the human heart.</h5>
+                <p class="text-[14px] font-normal text-[#979797] mt-3">Lorem Ipsum is simply dummy text the
+                printing typesetting industry. Lorem
+                Ipsum has been...</p>
+                <p class="text-[14px] font-normal mt-2 pb-4"><span>-</span>Posted By Daryl Smith <span>-</span></p>
+              </div>
+            </div>
+
+            <div class="bg-black text-[#fff]">
+              <img src="/assets/blog-6-C62aYdLd.png" alt="blog post featured image" class="w-full h-[230px]">
+              <div class="px-3 py-2">
+                <h6 class="blog-h6-design">Graphic design |  28 Apr 2022</h6>
+                <h5 class="blog-h5-design">TThe artist vocation is to send light
+                into the human heart.</h5>
+                <p class="text-[14px] font-normal text-[#979797] mt-3">Lorem Ipsum is simply dummy text the
+                printing typesetting industry. Lorem
+                Ipsum has been...</p>
+                <p class="text-[14px] font-normal mt-2 pb-4"><span>-</span>Posted By Daryl Smith <span>-</span></p>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- pricing -->
+      <section class="section-layout">
+        <div class="section-hide"></div>
+        <div class="w-full lg:w-2/4 ">
+          <h2 class="section-title">Pricing</h2>
+          <div class=" flex flex-col md:flex-row gap-8 px-4 md:px-0 md:gap-0 md:justify-around mt-8">
+            <div class="bg-black text-slate-100 py-4 rounded-sm">
+              <div>
+                <button class="pricing-btn">Intro</button>
+              </div>
+              <div class="px-7">
+                <p class="text-[#fff]"><span class="text-[48px] font-bold ">$29</span class="text-[18px] font-medium">/month</p>
+               <div class="bg-[#121214] px-6 py-6 text-[18px] font-normal rounded-sm">
+                <p>Interface Design</p>
+                <p>Front-end Code</p>
+                <p>Back-end Development</p>
+                <p><strike>Awesome Support</strike></p>
+                <p><strike>Responsive site</strike></p>
+                <p><strike>Easy in use</strike></p>
+                <p><strike>Useful site</strike></p>
+                <p><strike>Speedy web</strike></p>
+               </div>
+              </div>
+               <div class="px-6">
+                <button class="bg-[#f89222] px-3 py-2 my-5 rounded-md text-[#fff] text-[16px] font-bold">Get started</button>
+               </div>
+            </div>
+            
+            <div class="bg-black text-slate-100 py-4 rounded-sm">
+              <div>
+                <button class="pricing-btn">Base</button>
+              </div>
+              <div class="px-7">
+                <p class="text-[#fff]"><span class="text-[48px] font-bold ">$49</span class="text-[18px] font-medium">/month</p>
+               <div class="bg-[#121214] px-6 py-6 text-[18px] font-normal">
+                <p>Interface Design</p>
+                <p>Front-end Code</p>
+                <p>Back-end Development</p>
+                <p><strike>Awesome Support</strike></p>
+                <p><strike>Responsive site</strike></p>
+                <p><strike>Easy in use</strike></p>
+                <p><strike>Useful site</strike></p>
+                <p><strike>Speedy web</strike></p>
+               </div>
+              </div>
+               <div class="px-8">
+                <button class="pricing-btns">Get started</button>
+               </div>
+            </div>
+          </div>
+          
+          <div class="flex flex-col md:flex-row gap-8 px-4 md:px-0 md:gap-0 md:justify-around mt-8">
+            <div class="bg-black text-slate-100 py-4 rounded-sm">
+              <div>
+                <button class="pricing-btn">Popular</button>
+              </div>
+              <div class="px-7">
+                <p class="text-[#fff]"><span class="text-[48px] font-bold ">$99</span class="text-[18px] font-medium">/month</p>
+               <div class="bg-[#121214] px-6 py-6 text-[18px] font-normal rounded-sm">
+                <p>Interface Design</p>
+                <p>Front-end Code</p>
+                <p>Back-end Development</p>
+                <p><strike>Awesome Support</strike></p>
+                <p><strike>Responsive site</strike></p>
+                <p><strike>Easy in use</strike></p>
+                <p><strike>Useful site</strike></p>
+                <p><strike>Speedy web</strike></p>
+               </div>
+              </div>
+               <div class="px-6">
+                <button class="pricing-btns">Get started</button>
+               </div>
+            </div>
+            
+            <div class="bg-black text-slate-100 py-4 rounded-sm">
+              <div>
+                <button class="pricing-btn">Enterprise</button>
+              </div>
+              <div class="px-7">
+                <p class="text-[#fff]"><span class="text-[48px] font-bold ">$199</span class="text-[18px] font-medium">/month</p>
+               <div class="bg-[#121214] px-6 py-6 text-[18px] font-normal">
+                <p>Interface Design</p>
+                <p>Front-end Code</p>
+                <p>Back-end Development</p>
+                <p><strike>Awesome Support</strike></p>
+                <p><strike>Responsive site</strike></p>
+                <p><strike>Easy in use</strike></p>
+                <p><strike>Useful site</strike></p>
+                <p><strike>Speedy web</strike></p>
+               </div>
+              </div>
+               <div class="px-8">
+                <button class="pricing-btns">Get started</button>
+               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    
+    <!-- footer section -->
+    <footer  class="section-layout">
+      <div class="section-hide"></div>
+      <div class="w-full lg:w-2/4">
+        <h2 class="font-bold text-[#fff] text-center lg:text-left text-[36px] md:text-[48px] mt-20">Contact</h2>
+        <form class="p-6 rounded-lg w-full space-y-4">
+        <!-- First Name & Last Name -->
+        <div class="grid md:grid-cols-2 gap-4">
+          <div>
+            <label class="from-label">First Name*</label>
+            <input type="text" class="from-input" />
+          </div>
+          <div>
+            <label class="from-label">Last Name*</label>
+            <input type="text" class="from-input" />
+          </div>
+        </div>
+
+        <!-- Email & Phone -->
+        <div class="grid md:grid-cols-2 gap-4">
+          <div>
+            <label class="from-label">Email Address</label>
+            <input type="email" class="from-input" />
+          </div>
+          <div>
+            <label class="from-label">Phone Number</label>
+            <input type="tel" class="from-input" />
+          </div>
+        </div>
+
+        <!-- Message -->
+        <div>
+          <label class="from-label">Message</label>
+          <textarea rows="4" class="from-input"></textarea>
+        </div>
+
+        <!-- Button -->
+        <button
+          class="bg-[linear-gradient(89.71deg,#F5BD4D_0.36%,#F89222_99.88%)] text-white py-3 rounded w-full"
+        >
+          Send Message
+        </button>
+      </form>
+      </div>
+      
+    </footer>
+  </body>
+</html>
