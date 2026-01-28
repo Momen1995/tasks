@@ -3,10 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="main.css" />
-    <title>Document</title>
+    <title>My Portfolio - Web Developer Projects</title>
 
- 
+    <!-- Description (important for SEO) -->
+    <meta name="description" content="Showcasing my web development projects, skills, and portfolio work." />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="main.css" />
   </head>
   <body>
     <header class="bg-[#121414]">
@@ -19,7 +22,7 @@
         </div>
         <div class="md:w-8/12 md:flex md:justify-between pr-4 md:pr-0">
           <div class="hidden md:flex md:items-center md:gap-3">
-            <img src="./images/home.svg" alt="" />
+            <img src="./images/home.svg" alt="home icon" />
             <p class="font-bold text-xl text-[#fff]">Home</p>
           </div>
           <button
@@ -33,16 +36,33 @@
       <!-- hero section -->
       <section class="flex flex-col md:flex-row gap-7 px-5 lg:px-0 lg:gap-12 leading-tight bg-[#171b1a]">
         <div class="w-full md:w-1/2 lg:w-1/3 md:flex md:gap-2 md:items-center">
-          <div class=" hidden lg:flex lg:flex-col md:gap-6 px-6">
-            <img src="./images/house.svg" alt="" />
-            <img src="./images/blog.svg" alt="" />
-            <img src="./images/portfolio.svg" alt="" />
-            <img src="./images/profile-about.svg" alt="" />
-            <img src="./images/message.svg" alt="" />
-          </div>
-          <div class="flex flex-col gap-0 px-4 md:px-0">
-            <img src="./images/portfolio.png" alt="" class="bg-black" />
-            <!-- <img src="./images/icon.png" alt="" /> -->
+          <div
+          class="hidden lg:flex lg:flex-col gap-6 px-6"
+        >
+          <a href="#home" class="header-icon">
+            <img src="./images/house.svg" alt="Home page icon" />
+          </a>
+
+          <a href="#blog" class="header-icon">
+            <img src="./images/blog.svg" alt="Blog section icon" />
+          </a>
+
+          <a href="#portfolio" class="header-icon">
+            <img src="./images/portfolio.svg" alt="Portfolio projects icon" />
+          </a>
+
+          <a href="#about" class="header-icon">
+            <img src="./images/profile-about.svg" alt="About me icon" />
+          </a>
+
+          <a href="#contact" class="header-icon">
+            <img src="./images/message.svg" alt="Contact icon" />
+          </a>
+        </div>
+
+          <div class="flex flex-col gap-0 px-4 md:px-0 relative">
+            <img src="./images/portfolio.png"  alt="Portfolioimage" class="bg-black" />
+            <img src="./images/icon.png" alt="icon image" class="absolute bottom-0 left-0 w-[100%]"/>
           </div>
         </div>
 
@@ -81,23 +101,22 @@
 
     <main class="bg-[#171b1a]">
       <!-- resume -->
-      <section class="flex flex-col items-center text-center gap-10 mt-20 lg:flex-row lg:items-start lg:text-left">
+      <section id="home" class="section-layout">
   
-      <div class="hidden lg:block lg:w-1/3"></div>
+      <div class="section-hide"></div>
 
         <div class="w-full lg:w-2/4">
-        <h2 class="font-bold text-white text-[36px] md:text-[48px]">
-          Resume
-        </h2>
+          <h2 class="section-title">
+            Resume
+          </h2>
+          <div class="mt-8 flex justify-center lg:justify-start">
+            <img src="./images/cap.svg" alt="cap image" />
+          </div>
 
-        <div class="mt-8 flex justify-center lg:justify-start">
-          <img src="./images/cap.svg" alt="" />
+          <div class="mt-12 flex justify-center lg:justify-start">
+            <img src="./images/cap-2.svg" alt="cap image two" />
+          </div>
         </div>
-
-        <div class="mt-12 flex justify-center lg:justify-start">
-          <img src="./images/cap-2.svg" alt="" />
-        </div>
-      </div>
       </section>
 
 
@@ -106,12 +125,12 @@
           class="flex flex-col  items-center text-center gap-10 mt-20
                 lg:flex-row lg:items-start lg:text-left"
         >
-          <div class="hidden lg:block lg:w-1/3"></div>
+          <div class="section-hide"></div>
 
           <div class="w-full lg:w-2/4">
             <div class="rounded-xl p-6 text-white">
 
-              <h2 class="font-bold text-white text-[36px] md:text-[48px]">
+              <h2 class="section-title">
                 Skills
               </h2>
 
@@ -197,14 +216,14 @@
 
       <!-- portfolio -->
       <section
-        class="flex flex-col items-center gap-10
-              lg:flex-row lg:items-start md:px-8 lg:px-0"
+      id="portfolio"
+        class="section-layout"
       >
-        <div class="hidden lg:block lg:w-1/3"></div>
+        <div class="section-hide"></div>
 
         <div class="w-full lg:w-2/4">
           <h2
-            class="font-bold text-white text-[36px] md:text-[48px] text-center lg:text-left"
+            class="section-title"
           >
             Portfolio
           </h2>
@@ -240,17 +259,18 @@
 
 
       <!-- blog -->
-      <section class="flex flex-col items-center gap-10
-              lg:flex-row lg:items-start md:px-8 lg:px-0">
-        <div class="hidden lg:block lg:w-1/3"></div>
+      <section class="section-layout">
+        <div class="section-hide"></div>
         <div class="w-full lg:w-2/4">
-          <h2 class="font-bold text-white text-[36px] md:text-[48px] text-center lg:text-left mt-12">Blog</h2>
+          <h2 class="section-title">Blog</h2>
           <div class="flex flex-col md:flex-row gap-8 mt-8 ">
-            <div class="flex flex-col gap-10 w-full md:w-1/2 px-4 md:px-0">
+            <div class="blog-sections">
             <div class="bg-black text-[#fff]">
-              <img src="./images/blog-1.png" alt="" class="w-full">
+              <img src="./images/blog-1.png" 
+              alt="blog post featured image" 
+              class="w-full">
               <div class="px-3 py-2">
-                <h6 class="text-[12px] font-normal text-[#747474] mt-2">Graphic design |  28 Apr 2022</h6>
+                <h6 class="blog-h6-design">Graphic design |  28 Apr 2022</h6>
                 <h5 class="font-bold text-[18px] leading-6 justify-center mt-2">TThe artist vocation is to send light
                 into the human heart.</h5>
                 <p class="text-[14px] font-normal text-[#979797] mt-3">Lorem Ipsum is simply dummy text the
@@ -261,10 +281,10 @@
             </div>
 
             <div class="bg-black text-[#fff]">
-              <img src="./images/blog-2.png" alt="" class="w-full">
+              <img src="./images/blog-2.png" alt="new blog post featured image" class="w-full">
               <div class="px-3 py-2">
-                <h6 class="text-[12px] font-normal text-[#747474] mt-2">Graphic design |  28 Apr 2022</h6>
-                <h5 class="font-bold text-[18px] leading-6 justify-center mt-2">TThe artist vocation is to send light
+                <h6 class="blog-h6-design">Graphic design |  28 Apr 2022</h6>
+                <h5 class="blog-h5-design">TThe artist vocation is to send light
                 into the human heart.</h5>
                 <p class="text-[14px] font-normal text-[#979797] mt-3">Lorem Ipsum is simply dummy text the
                 printing typesetting industry. Lorem
@@ -274,10 +294,10 @@
             </div>
 
             <div class="bg-black text-[#fff]">
-              <img src="./images/blog-3.png" alt="" class="w-full">
+              <img src="./images/blog-3.png" alt="blog post featured image" class="w-full">
               <div class="px-3 py-2">
-                <h6 class="text-[12px] font-normal text-[#747474] mt-2">Graphic design |  28 Apr 2022</h6>
-                <h5 class="font-bold text-[18px] leading-6 justify-center mt-2">TThe artist vocation is to send light
+                <h6 class="blog-h6-design">Graphic design |  28 Apr 2022</h6>
+                <h5 class="blog-h5-design">TThe artist vocation is to send light
                 into the human heart.</h5>
                 <p class="text-[14px] font-normal text-[#979797] mt-3">Lorem Ipsum is simply dummy text the
                 printing typesetting industry. Lorem
@@ -287,12 +307,12 @@
             </div>
           </div>
 
-          <div class="flex flex-col gap-10 w-full md:w-1/2 px-4 md:px-0">
+          <div class="blog-sections">
             <div class="bg-black text-[#fff]">
-              <img src="./images/blog-4.png" alt="" class="w-full h-[230px]">
+              <img src="./images/blog-4.png" alt="blog post featured image" class="w-full h-[230px]">
               <div class="px-3 py-2">
                 <h6 class="text-[12px] font-normal text-[#747474] mt-2">Graphic design |  28 Apr 2022</h6>
-                <h5 class="font-bold text-[18px] leading-6 justify-center mt-2">TThe artist vocation is to send light
+                <h5 class="blog-h5-design">TThe artist vocation is to send light
                 into the human heart.</h5>
                 <p class="text-[14px] font-normal text-[#979797] mt-3">Lorem Ipsum is simply dummy text the
                 printing typesetting industry. Lorem
@@ -302,10 +322,10 @@
             </div>
 
             <div class="bg-black text-[#fff]">
-              <img src="./images/blog-5.png" alt="" class="w-full h-[230px]">
+              <img src="./images/blog-5.png" alt="blog post featured image" class="w-full h-[230px]">
               <div class="px-3 py-2">
-                <h6 class="text-[12px] font-normal text-[#747474] mt-2">Graphic design |  28 Apr 2022</h6>
-                <h5 class="font-bold text-[18px] leading-6 justify-center mt-2">TThe artist vocation is to send light
+                <h6 class="blog-h6-design">Graphic design |  28 Apr 2022</h6>
+                <h5 class="blog-h5-design">TThe artist vocation is to send light
                 into the human heart.</h5>
                 <p class="text-[14px] font-normal text-[#979797] mt-3">Lorem Ipsum is simply dummy text the
                 printing typesetting industry. Lorem
@@ -315,10 +335,10 @@
             </div>
 
             <div class="bg-black text-[#fff]">
-              <img src="./images/blog-6.png" alt="" class="w-full h-[230px]">
+              <img src="./images/blog-6.png" alt="blog post featured image" class="w-full h-[230px]">
               <div class="px-3 py-2">
-                <h6 class="text-[12px] font-normal text-[#747474] mt-2">Graphic design |  28 Apr 2022</h6>
-                <h5 class="font-bold text-[18px] leading-6 justify-center mt-2">TThe artist vocation is to send light
+                <h6 class="blog-h6-design">Graphic design |  28 Apr 2022</h6>
+                <h5 class="blog-h5-design">TThe artist vocation is to send light
                 into the human heart.</h5>
                 <p class="text-[14px] font-normal text-[#979797] mt-3">Lorem Ipsum is simply dummy text the
                 printing typesetting industry. Lorem
@@ -332,15 +352,14 @@
       </section>
 
       <!-- pricing -->
-      <section class="flex flex-col items-center gap-10
-              lg:flex-row lg:items-start">
-        <div class="hidden lg:block lg:w-1/3"></div>
+      <section class="section-layout">
+        <div class="section-hide"></div>
         <div class="w-full lg:w-2/4 ">
-          <h2 class="font-bold text-[#fff] text-center lg:text-left text-[36px] md:text-[48px]">Pricing</h2>
+          <h2 class="section-title">Pricing</h2>
           <div class=" flex flex-col md:flex-row gap-8 px-4 md:px-0 md:gap-0 md:justify-around mt-8">
             <div class="bg-black text-slate-100 py-4 rounded-sm">
               <div>
-                <button class="bg-[#410200] px-4 py-2 rounded-e-3xl text-center mb-4 text-[16px] font-bold text-[#fff] mt-3">Intro</button>
+                <button class="pricing-btn">Intro</button>
               </div>
               <div class="px-7">
                 <p class="text-[#fff]"><span class="text-[48px] font-bold ">$29</span class="text-[18px] font-medium">/month</p>
@@ -362,7 +381,7 @@
             
             <div class="bg-black text-slate-100 py-4 rounded-sm">
               <div>
-                <button class="bg-[#410200] px-4 py-2 rounded-e-3xl text-center mb-4 text-[16px] font-bold text-[#fff] mt-3">Base</button>
+                <button class="pricing-btn">Base</button>
               </div>
               <div class="px-7">
                 <p class="text-[#fff]"><span class="text-[48px] font-bold ">$49</span class="text-[18px] font-medium">/month</p>
@@ -377,8 +396,8 @@
                 <p><strike>Speedy web</strike></p>
                </div>
               </div>
-               <div class="px-6">
-                <button class="border-2 border-[#f89222] px-3 py-2 my-5 rounded-md text-[#fff] text-[16px] font-bold">Get started</button>
+               <div class="px-8">
+                <button class="pricing-btns">Get started</button>
                </div>
             </div>
           </div>
@@ -386,7 +405,7 @@
           <div class="flex flex-col md:flex-row gap-8 px-4 md:px-0 md:gap-0 md:justify-around mt-8">
             <div class="bg-black text-slate-100 py-4 rounded-sm">
               <div>
-                <button class="bg-[#410200] px-4 py-2 rounded-e-3xl text-center mb-4 text-[16px] font-bold text-[#fff] mt-3">Popular</button>
+                <button class="pricing-btn">Popular</button>
               </div>
               <div class="px-7">
                 <p class="text-[#fff]"><span class="text-[48px] font-bold ">$99</span class="text-[18px] font-medium">/month</p>
@@ -402,13 +421,13 @@
                </div>
               </div>
                <div class="px-6">
-                <button class="border-2 border-[#f89222] px-3 py-2 my-5 rounded-md text-[#fff] text-[16px] font-bold">Get started</button>
+                <button class="pricing-btns">Get started</button>
                </div>
             </div>
             
             <div class="bg-black text-slate-100 py-4 rounded-sm">
               <div>
-                <button class="bg-[#410200] px-4 py-2 rounded-e-3xl text-center mb-4 text-[16px] font-bold text-[#fff] mt-3">Enterprise</button>
+                <button class="pricing-btn">Enterprise</button>
               </div>
               <div class="px-7">
                 <p class="text-[#fff]"><span class="text-[48px] font-bold ">$199</span class="text-[18px] font-medium">/month</p>
@@ -423,52 +442,49 @@
                 <p><strike>Speedy web</strike></p>
                </div>
               </div>
-               <div class="px-6">
-                <button class="border-2 border-[#f89222] px-3 py-2 my-5 rounded-md text-[#fff] text-[16px] font-bold">Get started</button>
+               <div class="px-8">
+                <button class="pricing-btns">Get started</button>
                </div>
             </div>
           </div>
         </div>
-
-
       </section>
     </main>
     
     <!-- footer section -->
-    <footer  class="flex flex-col items-center gap-10
-              lg:flex-row lg:items-start">
-      <div class="hidden lg:block lg:w-1/3"></div>
+    <footer  class="section-layout">
+      <div class="section-hide"></div>
       <div class="w-full lg:w-2/4">
         <h2 class="font-bold text-[#fff] text-center lg:text-left text-[36px] md:text-[48px] mt-20">Contact</h2>
         <form class="p-6 rounded-lg w-full space-y-4">
         <!-- First Name & Last Name -->
         <div class="grid md:grid-cols-2 gap-4">
           <div>
-            <label class="block text-xl font-medium mb-2 text-[#fff]">First Name*</label>
-            <input type="text" class="border border-[#f5bd4d] p-2 rounded w-full bg-black" />
+            <label class="from-label">First Name*</label>
+            <input type="text" class="from-input" />
           </div>
           <div>
-            <label class="block text-xl font-medium mb-2 text-[#fff]">Last Name*</label>
-            <input type="text" class="border border-[#f5bd4d] p-2 rounded w-full bg-black" />
+            <label class="from-label">Last Name*</label>
+            <input type="text" class="from-input" />
           </div>
         </div>
 
         <!-- Email & Phone -->
         <div class="grid md:grid-cols-2 gap-4">
           <div>
-            <label class="block text-xl font-medium mb-2 text-[#fff]">Email Address</label>
-            <input type="email" class="border border-[#f5bd4d] p-2 rounded w-full bg-black" />
+            <label class="from-label">Email Address</label>
+            <input type="email" class="from-input" />
           </div>
           <div>
-            <label class="block text-xl font-medium mb-2 text-[#fff]">Phone Number</label>
-            <input type="tel" class="border border-[#f5bd4d] p-2 rounded w-full bg-black" />
+            <label class="from-label">Phone Number</label>
+            <input type="tel" class="from-input" />
           </div>
         </div>
 
         <!-- Message -->
         <div>
-          <label class="block text-xl font-medium mb-2 text-[#fff]">Message</label>
-          <textarea rows="4" class="border border-[#f5bd4d] p-2 rounded w-full bg-black"></textarea>
+          <label class="from-label">Message</label>
+          <textarea rows="4" class="from-input"></textarea>
         </div>
 
         <!-- Button -->
