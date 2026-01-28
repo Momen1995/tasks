@@ -10,7 +10,7 @@
   </head>
   <body>
     <header class="bg-[#121414]">
-      <nav class=" md:w-9/12 lg:w-11/12 mx-auto flex md:gap-6 lg:gap-8  justify-between items-center p-2 md:py-2">
+      <nav class=" md:w-11/12 mx-auto flex md:gap-6 lg:gap-8  justify-between items-center p-2 md:py-2">
         <div class="w-4/12 md:border-r-2  md:border-[#353535]">
           <h3 class="font-bold text-xl md:text-2xl text-[#fff]">
             Daryl <span class="text-[#f89222]">Smith</span>
@@ -31,9 +31,9 @@
       </nav>
 
       <!-- hero section -->
-      <section class="flex flex-col md:flex-row  gap-12 leading-tight bg-[#171b1a]">
-        <div class="md:w-1/3 md:flex md:gap-2 md:items-center">
-          <div class=" hidden md:flex md:flex-col md:gap-6 px-6">
+      <section class="flex flex-col md:flex-row gap-7 px-5 lg:px-0 lg:gap-12 leading-tight bg-[#171b1a]">
+        <div class="w-full md:w-1/2 lg:w-1/3 md:flex md:gap-2 md:items-center">
+          <div class=" hidden lg:flex lg:flex-col md:gap-6 px-6">
             <img src="./images/house.svg" alt="" />
             <img src="./images/blog.svg" alt="" />
             <img src="./images/portfolio.svg" alt="" />
@@ -46,9 +46,9 @@
           </div>
         </div>
 
-        <div class="w-full text-center mx-auto md:mx-0 md:text-left md:w-2/3 mt-8">
+        <div class="w-full text-center mx-auto lg:mx-0 md:text-left md:w-1/2 lg:w-2/3 md:mt-12 lg:mt-8">
           <h4 class="text-[#f5bd4d] font-bold text-[16px]">INTRODUCTION</h4>
-          <h1 class=" text-3xl md:text-[48px] text-[#fff] mt-4">
+          <h1 class=" text-3xl lg:text-[48px] leading-tight text-[#fff] mt-4">
             I'm a Creative Developer &<br />
             UI/UX Design Expert
           </h1>
@@ -56,7 +56,7 @@
             24 years / Robert Smith / UK London
           </h5>
           <p
-            class="text-sm md:text-[16px] text-[#fff] mt-5 md:mt-7 font-medium w-[630px] text-justify px-4 md:px-0"
+            class="text-sm md:text-[16px] text-[#fff] mt-5 md:mt-7 font-medium w-[630px] text-justify px-4 md:px-0 lg:px-0"
           >
             Prolific, full stack web developer with a passion for metrics and
             beating former "best-yets. Prototyped 25 new product features per
@@ -198,7 +198,7 @@
       <!-- portfolio -->
       <section
         class="flex flex-col items-center gap-10
-              lg:flex-row lg:items-start"
+              lg:flex-row lg:items-start md:px-8 lg:px-0"
       >
         <div class="hidden lg:block lg:w-1/3"></div>
 
@@ -221,18 +221,18 @@
           <div class="max-w-3xl mx-auto flex flex-col gap-6 md:grid md:grid-cols-2">
             
             <div class="flex flex-col gap-6">
-              <img src="./images/group-1.png" class="portfolio-img" />
-              <img src="./images/group-2.png" class="portfolio-img" />
-              <img src="./images/group-3.png" class="portfolio-img" />
-              <img src="./images/group-4.png" class="portfolio-img" />
+              <img src="./images/group-1.png" />
+              <img src="./images/group-2.png"  />
+              <img src="./images/group-3.png"  />
+              <img src="./images/group-4.png"  />
             </div>
 
             <div class="flex flex-col gap-6">
-              <img src="./images/group-5.png" class="portfolio-img" />
-              <img src="./images/group-6.png" class="portfolio-img" />
-              <img src="./images/group-7.png" class="portfolio-img" />
-              <img src="./images/group-8.png" class="portfolio-img" />
-              <img src="./images/group-9.png" class="portfolio-img" />
+              <img src="./images/group-5.png"  />
+              <img src="./images/group-6.png" />
+              <img src="./images/group-7.png"  />
+              <img src="./images/group-8.png"  />
+              <img src="./images/group-9.png"  />
             </div>
           </div>
         </div>
@@ -240,22 +240,104 @@
 
 
       <!-- blog -->
-      <section class="flex gap-10 mt-20">
-        <div class="w-1/3"></div>
-        <div class="w-2/4">
-          <h2 class="font-bold text-[#fff] text-[48px]">Blog</h2>
-          <div></div>
+      <section class="flex flex-col items-center gap-10
+              lg:flex-row lg:items-start md:px-8 lg:px-0">
+        <div class="hidden lg:block lg:w-1/3"></div>
+        <div class="w-full lg:w-2/4">
+          <h2 class="font-bold text-white text-[36px] md:text-[48px] text-center lg:text-left mt-12">Blog</h2>
+          <div class="flex flex-col md:flex-row gap-8 mt-8 ">
+            <div class="flex flex-col gap-10 w-full md:w-1/2 px-4 md:px-0">
+            <div class="bg-black text-[#fff]">
+              <img src="./images/blog-1.png" alt="" class="w-full">
+              <div class="px-3 py-2">
+                <h6 class="text-[12px] font-normal text-[#747474] mt-2">Graphic design |  28 Apr 2022</h6>
+                <h5 class="font-bold text-[18px] leading-6 justify-center mt-2">TThe artist vocation is to send light
+                into the human heart.</h5>
+                <p class="text-[14px] font-normal text-[#979797] mt-3">Lorem Ipsum is simply dummy text the
+                printing typesetting industry. Lorem
+                Ipsum has been...</p>
+                <p class="text-[14px] font-normal mt-2 pb-4"><span>-</span>Posted By Daryl Smith <span>-</span></p>
+              </div>
+            </div>
+
+            <div class="bg-black text-[#fff]">
+              <img src="./images/blog-2.png" alt="" class="w-full">
+              <div class="px-3 py-2">
+                <h6 class="text-[12px] font-normal text-[#747474] mt-2">Graphic design |  28 Apr 2022</h6>
+                <h5 class="font-bold text-[18px] leading-6 justify-center mt-2">TThe artist vocation is to send light
+                into the human heart.</h5>
+                <p class="text-[14px] font-normal text-[#979797] mt-3">Lorem Ipsum is simply dummy text the
+                printing typesetting industry. Lorem
+                Ipsum has been...</p>
+                <p class="text-[14px] font-normal mt-2 pb-4"><span>-</span>Posted By Daryl Smith <span>-</span></p>
+              </div>
+            </div>
+
+            <div class="bg-black text-[#fff]">
+              <img src="./images/blog-3.png" alt="" class="w-full">
+              <div class="px-3 py-2">
+                <h6 class="text-[12px] font-normal text-[#747474] mt-2">Graphic design |  28 Apr 2022</h6>
+                <h5 class="font-bold text-[18px] leading-6 justify-center mt-2">TThe artist vocation is to send light
+                into the human heart.</h5>
+                <p class="text-[14px] font-normal text-[#979797] mt-3">Lorem Ipsum is simply dummy text the
+                printing typesetting industry. Lorem
+                Ipsum has been...</p>
+                <p class="text-[14px] font-normal mt-2 pb-4"><span>-</span>Posted By Daryl Smith <span>-</span></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex flex-col gap-10 w-full md:w-1/2 px-4 md:px-0">
+            <div class="bg-black text-[#fff]">
+              <img src="./images/blog-4.png" alt="" class="w-full h-[230px]">
+              <div class="px-3 py-2">
+                <h6 class="text-[12px] font-normal text-[#747474] mt-2">Graphic design |  28 Apr 2022</h6>
+                <h5 class="font-bold text-[18px] leading-6 justify-center mt-2">TThe artist vocation is to send light
+                into the human heart.</h5>
+                <p class="text-[14px] font-normal text-[#979797] mt-3">Lorem Ipsum is simply dummy text the
+                printing typesetting industry. Lorem
+                Ipsum has been...</p>
+                <p class="text-[14px] font-normal mt-2 pb-4"><span>-</span>Posted By Daryl Smith <span>-</span></p>
+              </div>
+            </div>
+
+            <div class="bg-black text-[#fff]">
+              <img src="./images/blog-5.png" alt="" class="w-full h-[230px]">
+              <div class="px-3 py-2">
+                <h6 class="text-[12px] font-normal text-[#747474] mt-2">Graphic design |  28 Apr 2022</h6>
+                <h5 class="font-bold text-[18px] leading-6 justify-center mt-2">TThe artist vocation is to send light
+                into the human heart.</h5>
+                <p class="text-[14px] font-normal text-[#979797] mt-3">Lorem Ipsum is simply dummy text the
+                printing typesetting industry. Lorem
+                Ipsum has been...</p>
+                <p class="text-[14px] font-normal mt-2 pb-4"><span>-</span>Posted By Daryl Smith <span>-</span></p>
+              </div>
+            </div>
+
+            <div class="bg-black text-[#fff]">
+              <img src="./images/blog-6.png" alt="" class="w-full h-[230px]">
+              <div class="px-3 py-2">
+                <h6 class="text-[12px] font-normal text-[#747474] mt-2">Graphic design |  28 Apr 2022</h6>
+                <h5 class="font-bold text-[18px] leading-6 justify-center mt-2">TThe artist vocation is to send light
+                into the human heart.</h5>
+                <p class="text-[14px] font-normal text-[#979797] mt-3">Lorem Ipsum is simply dummy text the
+                printing typesetting industry. Lorem
+                Ipsum has been...</p>
+                <p class="text-[14px] font-normal mt-2 pb-4"><span>-</span>Posted By Daryl Smith <span>-</span></p>
+              </div>
+            </div>
+          </div>
+          </div>
         </div>
       </section>
 
       <!-- pricing -->
-      <!-- blog -->
       <section class="flex flex-col items-center gap-10
               lg:flex-row lg:items-start">
         <div class="hidden lg:block lg:w-1/3"></div>
-        <div class="w-full md:w-2/4 ">
-          <h2 class="font-bold text-[#fff] text-center md:text-left text-[36px] md:text-[48px]">Pricing</h2>
-          <div class=" flex flex-col md:flex-row gap-8 px-4 md:px-0 md:gap-0 justify-around">
+        <div class="w-full lg:w-2/4 ">
+          <h2 class="font-bold text-[#fff] text-center lg:text-left text-[36px] md:text-[48px]">Pricing</h2>
+          <div class=" flex flex-col md:flex-row gap-8 px-4 md:px-0 md:gap-0 md:justify-around mt-8">
             <div class="bg-black text-slate-100 py-4 rounded-sm">
               <div>
                 <button class="bg-[#410200] px-4 py-2 rounded-e-3xl text-center mb-4 text-[16px] font-bold text-[#fff] mt-3">Intro</button>
@@ -301,7 +383,7 @@
             </div>
           </div>
           
-          <div class=" flex flex-col md:flex-row gap-8 px-4 md:px-0 md:gap-0 justify-around mt-8">
+          <div class="flex flex-col md:flex-row gap-8 px-4 md:px-0 md:gap-0 md:justify-around mt-8">
             <div class="bg-black text-slate-100 py-4 rounded-sm">
               <div>
                 <button class="bg-[#410200] px-4 py-2 rounded-e-3xl text-center mb-4 text-[16px] font-bold text-[#fff] mt-3">Popular</button>
@@ -351,12 +433,13 @@
 
       </section>
     </main>
-
+    
+    <!-- footer section -->
     <footer  class="flex flex-col items-center gap-10
               lg:flex-row lg:items-start">
       <div class="hidden lg:block lg:w-1/3"></div>
-      <div class="w-full md:w-2/4">
-        <h2 class="font-bold text-[#fff] text-center md:text-left text-[36px] md:text-[48px] mt-20">Contact</h2>
+      <div class="w-full lg:w-2/4">
+        <h2 class="font-bold text-[#fff] text-center lg:text-left text-[36px] md:text-[48px] mt-20">Contact</h2>
         <form class="p-6 rounded-lg w-full space-y-4">
         <!-- First Name & Last Name -->
         <div class="grid md:grid-cols-2 gap-4">
